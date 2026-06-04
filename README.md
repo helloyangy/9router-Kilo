@@ -42,7 +42,7 @@ sudo docker run hello-world
 推荐设置一个强密码。
 
 ```bash
-suod docker run -d \
+sudo docker run -d \
   --name 9router \
   --restart=unless-stopped \
   -p 20128:20128 \
